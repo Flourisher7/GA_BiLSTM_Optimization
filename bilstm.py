@@ -87,7 +87,7 @@ class BiLSTM:
 
         self.target_key = ['COD (gCOD/m3)']'''
 
-        self.feature_keys = ['S_NH4 (gN/m3)', 'CODeff (gCOD/m3)', 'S_Ca (g/m3)', 'Temp (oC)', 'Q_gas_norm (m3/d)']
+        self.feature_keys = ['S_NH4 (gN/m3)', 'CODeff (gCOD/m3)', 'S_Ca (g/m3)', 'Temp (oC)']
 
         self.target_key = ['Q_gas_norm (m3/d)']
 
